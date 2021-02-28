@@ -1,6 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/btebxyz/public_html
-    - /bin/cp README.md $DEPLOYPATH
-    - /bin/touch hello.txt
+    - export DEPLOYFILE=/home/btebxyz/public_html/php.html
+    - /bin/echo php -v > $DEPLOYFILE
