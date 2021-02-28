@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - /bin/sh echo "hello" > index.html
