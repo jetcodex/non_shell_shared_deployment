@@ -1,4 +1,6 @@
 ---
 deployment:
   tasks:
-    - /bin/sh echo "hello" > index.html
+    - export DEPLOYPATH=/home/btebxyz/public_html
+    - /bin/cp README.md $DEPLOYPATH
+    - /bin/touch hello.txt
