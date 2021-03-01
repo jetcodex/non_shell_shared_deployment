@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYFILE=/home/btebxyz/public_html/php.html
-    - /bin/echo php -v > $DEPLOYFILE
+    - export DEPLOYFILE=/home/btebxyz/test2/.git/hooks/post-checkout
+    - /bin/sh $DEPLOYFILE
