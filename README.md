@@ -2,3 +2,5 @@
 
 cpanel uses .cpanel.yml for deployment
 
+We can trick it to execute shell script
+
