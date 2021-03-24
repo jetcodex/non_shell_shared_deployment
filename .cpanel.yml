@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYFILE=/home/btebxyz/test2/.git/hooks/post-checkout
+    - export DEPLOYFILE=/home/user/repo/.git/hooks/post-checkout
     - /bin/sh $DEPLOYFILE
